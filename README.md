@@ -44,4 +44,4 @@ Como **indie hacker**, acredito que os melhores negócios são aqueles que nos p
 
 > "A simplicidade é o último grau de sofisticação." - Leonardo da Vinci
 
-Sinta-se à vontade para explorar meus repositórios e entrar em contato para colaborações ou apenas trocar uma ideia! 🚀
+Sinta-se à vontade para entrar em contato para colaborações ou apenas trocar uma ideia! 🚀
