@@ -45,3 +45,10 @@ Como **indie hacker**, acredito que os melhores negócios são aqueles que nos p
 > "A simplicidade é o último grau de sofisticação." - Leonardo da Vinci
 
 Sinta-se à vontade para entrar em contato para colaborações ou apenas trocar uma ideia! 🚀
+
+---
+
+## ⚡ Total de visitantes
+
+![Contador de Visitas](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/DiegoNogueiraDev/DiegoNogueiraDev&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=visitas&edge_flat=false)
+
