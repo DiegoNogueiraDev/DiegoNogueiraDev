@@ -53,9 +53,5 @@ Meu objetivo é continuar explorando novas tecnologias e aplicá-las para resolv
 
 Se quiser trocar ideias, colaborar em projetos ou simplesmente bater um papo sobre tecnologia, entre em contato:
 
-- **E-mail**: [seuemail@exemplo.com](mailto:seuemail@exemplo.com)
-- **LinkedIn**: [Seu Perfil](https://linkedin.com/in/seu-perfil)
-- **GitHub**: [Seu GitHub](https://github.com/seu-github)
-- **Instagram**: [@seuusuario](https://instagram.com/seuusuario)
-
-Vamos construir o futuro juntos! 🚀
+- **E-mail**: [contato@devnogueira.io](mailto:contato@devnogueira.io)
+- **LinkedIn**: [DevNogueira](https://linkedin.com/in/diegonogueirapaula)
