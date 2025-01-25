@@ -1,4 +1,4 @@
-# Olá, eu sou [Seu Nome] <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
+# Olá, eu sou Diego Nogueira <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 
 Bem-vindo(a) ao meu universo digital! Sou **empreendedor**, **desenvolvedor** e **eterno entusiasta** das possibilidades infinitas que a tecnologia proporciona. Tenho um objetivo muito claro: **transformar ideias em produtos viáveis e escaláveis**, contribuindo para um futuro mais inteligente e conectado.
 
