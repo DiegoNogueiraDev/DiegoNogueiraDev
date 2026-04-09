@@ -119,10 +119,10 @@ npx -y @mcp-graph-workflow/mcp-graph
   <a href="https://linkedin.com/in/diegonogueirapaula">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://twitter.com/NogueiraDev_">
+  <a href="https://twitter.com/diegoconsagrado">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" />
   </a>
-  <a href="https://instagram.com/nogueiradev_">
+  <a href="https://instagram.com/devnogueira_">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
   <a href="https://github.com/DiegoNogueiraDev">
