@@ -1,5 +1,8 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=180&section=header&text=Diego%20Nogueira&fontSize=36&fontColor=e6edf3&fontAlignY=35&desc=Software%20Engineer%20%7C%20Building%20tools%20that%20make%20developers%27%20lives%20easier&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" alt="header" />
 
+<h3 align="center"><i>"When someone asks what framework I use, my answer is simple:<br/>My framework is the philosophy of mathematics."</i></h3>
+<p align="center"><sub>Frameworks come and go. Logic, abstraction, and first principles are forever.<br/>I'd rather master the thinking behind the tools than chase the tools themselves.</sub></p>
+
 <p align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=238636&center=true&vCenter=true&multiline=false&width=620&height=45&lines=I+love+building+software+that+matters.;Creator+of+mcp-graph-workflow.;Autopilot+for+AI-driven+development." alt="Typing SVG" />
