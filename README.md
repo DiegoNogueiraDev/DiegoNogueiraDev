@@ -1,7 +1,7 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=180&section=header&text=Diego%20Nogueira&fontSize=36&fontColor=e6edf3&fontAlignY=35&desc=Turning%20complexity%20into%20structure%20%E2%80%94%20the%20problem%20is%20the%20center%20of%20everything&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=180&section=header&text=Diego%20Nogueira&fontSize=36&fontColor=e6edf3&fontAlignY=35&desc=Turning%20complexity%20into%20structure.%20The%20problem%20is%20the%20center%20of%20everything&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" alt="header" />
 
 <h3 align="center"><i>"When someone asks what framework I use, my answer is simple:<br/>My framework is the philosophy of mathematics."</i></h3>
-<p align="center"><sub>Every great solution starts by understanding the problem deeply.<br/>Frameworks are just syntax — the real architecture lives in how you think.</sub></p>
+<p align="center"><sub>Every great solution starts by understanding the problem deeply.<br/>Frameworks are just syntax. The real architecture lives in how you think.</sub></p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -21,12 +21,12 @@
 
 Hi there! I'm **Diego Nogueira**, a Software Engineer at **Vivo / Telefonica** in Brazil.
 
-I believe that every meaningful solution begins with understanding the problem at its core — not with picking a framework or following a trend. That conviction shaped how I think and how I build. It led me to create **[mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)**: a tool that places the problem at the center and transforms it into a structured execution graph, giving both humans and AI agents a clear path from requirement to delivery.
+I believe that every meaningful solution begins with understanding the problem at its core, not with picking a framework or following a trend. That conviction shaped how I think and how I build. It led me to create **[mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)**, a tool that places the problem at the center and transforms it into a structured execution graph, giving both humans and AI agents a clear path from requirement to delivery.
 
 When I'm not building, I write about software engineering on my [blog](https://diegonogueira.blog) and explore ideas through side projects like a [3D chess game](https://github.com/DiegoNogueiraDev/xadrez-3D).
 
 - :house: Working from home, coffee in hand
-- :dart: The problem comes first — the solution follows from understanding it
+- :dart: The problem comes first. The solution follows from understanding it
 - :seedling: Always learning, always building
 
 ---
@@ -56,7 +56,7 @@ When I'm not building, I write about software engineering on my [blog](https://d
 
 **Autopilot for AI-driven development.**
 
-A local-first MCP server that transforms Product Requirements Documents (PRDs) into persistent execution graphs stored in SQLite. It brings structure, traceability, and automation to the entire software development lifecycle — no external dependencies required.
+A local-first MCP server that transforms Product Requirements Documents (PRDs) into persistent execution graphs stored in SQLite. It brings structure, traceability, and automation to the entire software development lifecycle, with no external dependencies required.
 
 ```
 npx -y @mcp-graph-workflow/mcp-graph
@@ -77,11 +77,11 @@ npx -y @mcp-graph-workflow/mcp-graph
 
 **Key capabilities:**
 - :zap: Pipeline tools that reduce tool calls by **67%** (`start_task` + `finish_task`)
-- :robot: Agent State Machine — every response tells the agent what to do next
+- :robot: Agent State Machine: every response tells the agent what to do next
 - :bar_chart: DORA metrics tracking (deployment frequency, lead time, MTTR)
-- :brain: Cross-project learning — import knowledge between projects
-- :mag: Code-aware sync — detects graph-to-code drift across 13 languages
-- :jigsaw: Smart decompose — auto-breaks tasks by acceptance criteria
+- :brain: Cross-project learning: import knowledge between projects
+- :mag: Code-aware sync: detects graph-to-code drift across 13 languages
+- :jigsaw: Smart decompose: auto-breaks tasks by acceptance criteria
 
 **Works with:** GitHub Copilot · Claude Code · Cursor · IntelliJ · Windsurf · Zed
 
@@ -133,7 +133,7 @@ npx -y @mcp-graph-workflow/mcp-graph
 ---
 
 <p align="center">
-  <i>"The real architecture is not in the code — it's in how deeply you understood the problem."</i>
+  <i>"The real architecture is not in the code. It's in how deeply you understood the problem."</i>
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=100&section=footer" alt="footer" />
