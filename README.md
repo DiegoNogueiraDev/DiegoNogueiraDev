@@ -21,12 +21,12 @@
 
 Hi there! I'm **Diego Nogueira**, a Software Engineer at **Vivo / Telefonica** in Brazil.
 
-I genuinely love developing software. There is something deeply satisfying about turning an idea into working code — solving real problems, automating the tedious, and crafting tools that help other developers ship better work. That drive led me to create **[mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)**, an open-source project that brings structure and automation to AI-assisted development.
+I believe that every meaningful solution begins with understanding the problem at its core — not with picking a framework or following a trend. That conviction shaped how I think and how I build. It led me to create **[mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)**: a tool that places the problem at the center and transforms it into a structured execution graph, giving both humans and AI agents a clear path from requirement to delivery.
 
-When I'm not coding, I write about software engineering on my [blog](https://diegonogueira.blog) and tinker with side projects like a [3D chess game](https://github.com/DiegoNogueiraDev/xadrez-3D).
+When I'm not building, I write about software engineering on my [blog](https://diegonogueira.blog) and explore ideas through side projects like a [3D chess game](https://github.com/DiegoNogueiraDev/xadrez-3D).
 
 - :house: Working from home, coffee in hand
-- :wrench: Firm believer that great tooling multiplies great teams
+- :dart: The problem comes first — the solution follows from understanding it
 - :seedling: Always learning, always building
 
 ---
@@ -133,7 +133,7 @@ npx -y @mcp-graph-workflow/mcp-graph
 ---
 
 <p align="center">
-  <i>"The best code is the one that helps someone else write better code."</i>
+  <i>"The real architecture is not in the code — it's in how deeply you understood the problem."</i>
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=100&section=footer" alt="footer" />
