@@ -17,6 +17,9 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=DiegoNogueiraDev.DiegoNogueiraDev&left_text=Profile%20Views&left_color=555&right_color=238636" alt="Profile views" />
   <img src="https://img.shields.io/github/stars/DiegoNogueiraDev?style=flat-square&color=238636&label=Total%20Stars" alt="Total Stars" />
   <img src="https://img.shields.io/badge/PRO-member-238636?style=flat-square&logo=github" alt="Pro" />
+  <a href="https://mcp-graph-workflow-dashboard.vercel.app/">
+    <img src="https://img.shields.io/badge/mcp--graph-live%20dashboard-238636?style=flat-square&logo=vercel&logoColor=white" alt="mcp-graph dashboard" />
+  </a>
 </p>
 
 ---
@@ -27,7 +30,7 @@ Sou **Diego Nogueira**, Software Engineer na **Vivo / Telefonica** e praticante 
 
 A cena que motiva tudo o que construo: 6 prompts soltos no Claude, código que não compila, o agente esquecendo o que foi combinado, PRD virando parede de texto que ninguém relê. É o estado padrão de "fazer ship com IA" em 2026, e é exatamente isso que recuso.
 
-Por isso criei o **[mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)** — a ferramenta que uso pra fazer isso sem perder o controle. PRD vira grafo persistente. Grafo vira tasks atômicas com critérios de aceite. Tasks vira PR com testes. Tudo local, tudo rastreado, zero vibe-coding.
+Por isso criei o **[mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)** ([dashboard ao vivo](https://mcp-graph-workflow-dashboard.vercel.app/)) — a ferramenta que uso pra fazer isso sem perder o controle. PRD vira grafo persistente. Grafo vira tasks atômicas com critérios de aceite. Tasks vira PR com testes. Tudo local, tudo rastreado, zero vibe-coding.
 
 Quando não estou construindo, escrevo sobre engenharia com IA no [blog](https://diegonogueira.blog) e exploro ideias em side projects como um [jogo de xadrez 3D](https://github.com/DiegoNogueiraDev/xadrez-3D).
 
@@ -80,6 +83,15 @@ Cada estado é rastreado em SQLite local. O agente não improvisa: se a task nã
 **Faz engenharia de software com IA sem perder o controle.**
 
 PRD → grafo → TDD → produção. Servidor MCP local-first que transforma documentos de requisitos em grafos de execução persistentes em SQLite. Sem cloud, sem chave de LLM, sem improviso.
+
+<p align="center">
+  <a href="https://mcp-graph-workflow-dashboard.vercel.app/">
+    <img src="https://img.shields.io/badge/%E2%9C%A8%20Live%20Dashboard-mcp--graph--workflow.vercel.app-238636?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Dashboard" />
+  </a>
+  <a href="https://github.com/DiegoNogueiraDev/mcp-graph-workflow">
+    <img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" />
+  </a>
+</p>
 
 ```
 npm install -g @mcp-graph-workflow/mcp-graph
