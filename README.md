@@ -92,7 +92,7 @@ npm install -g @mcp-graph-workflow/mcp-graph
   <img src="https://img.shields.io/badge/analyze%20modes-48-blue?style=flat-square" alt="Analyze Modes" />
   <img src="https://img.shields.io/badge/engineering%20skills-30-blue?style=flat-square" alt="Skills" />
   <img src="https://img.shields.io/github/stars/DiegoNogueiraDev/mcp-graph-workflow?style=flat-square&color=238636" alt="Stars" />
-  <img src="https://img.shields.io/github/license/DiegoNogueiraDev/mcp-graph-workflow?style=flat-square" alt="License" />
+  <img src="https://img.shields.io/badge/license-AGPL%20v3-238636?style=flat-square" alt="AGPL v3" />
 </p>
 
 <sub>**12x menos retrabalho** vs prompting solto — medição interna em fluxos PRD→PR completos.</sub>
