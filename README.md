@@ -1,11 +1,11 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=180&section=header&text=Diego%20Nogueira&fontSize=36&fontColor=e6edf3&fontAlignY=35&desc=Turning%20complexity%20into%20structure.%20The%20problem%20is%20the%20center%20of%20everything&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=180&section=header&text=Diego%20Nogueira&fontSize=36&fontColor=e6edf3&fontAlignY=35&desc=PRD%20%E2%86%92%20grafo%20%E2%86%92%20TDD%20%E2%86%92%20produ%C3%A7%C3%A3o.%20Zero%20vibe-coding.&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" alt="header" />
 
-<h3 align="center"><i>"When someone asks what framework I use, my answer is simple:<br/>My framework is the philosophy of mathematics."</i></h3>
-<p align="center"><sub>Every great solution starts by understanding the problem deeply.<br/>Frameworks are just syntax. The real architecture lives in how you think.</sub></p>
+<h3 align="center"><i>"Frameworks são sintaxe.<br/>Disciplina é arquitetura. O grafo é a memória."</i></h3>
+<p align="center"><sub>Anti-vibe-coding por padrão. Estrutura antes do código.<br/>Tudo local, tudo rastreado, zero improviso.</sub></p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=238636&center=true&vCenter=true&multiline=false&width=620&height=45&lines=The+problem+is+the+center.+Everything+else+follows.;Creator+of+mcp-graph-workflow.+Made+in+Brazil.;Turning+requirements+into+execution+graphs.+Automatically." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=238636&center=true&vCenter=true&multiline=false&width=720&height=45&lines=PRD+%E2%86%92+grafo+persistente+%E2%86%92+TDD+obrigat%C3%B3rio+%E2%86%92+PR+pronto.;Anti-vibe-coding+por+padr%C3%A3o.+Local-first.+Determin%C3%ADstico.;Creator+of+mcp-graph-workflow.+Made+in+Brazil." alt="Typing SVG" />
   </a>
 </p>
 
@@ -19,15 +19,17 @@
 
 ## About Me
 
-Hi there! I'm **Diego Nogueira**, a Software Engineer at **Vivo / Telefonica** in Brazil.
+Sou **Diego Nogueira**, Software Engineer na **Vivo / Telefonica**, Brasil.
 
-I believe that every meaningful solution begins with understanding the problem at its core, not with picking a framework or following a trend. That conviction shaped how I think and how I build. It led me to create **[mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)**, a tool that places the problem at the center and transforms it into a structured execution graph, giving both humans and AI agents a clear path from requirement to delivery.
+A cena que motiva tudo o que construo: 6 prompts soltos no Claude, código que não compila, o agente esquecendo o que foi combinado, PRD virando parede de texto que ninguém relê. É o estado padrão de "fazer ship com IA" em 2026, e é exatamente isso que recuso.
 
-When I'm not building, I write about software engineering on my [blog](https://diegonogueira.blog) and explore ideas through side projects like a [3D chess game](https://github.com/DiegoNogueiraDev/xadrez-3D).
+Por isso criei o **[mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)** — o sistema operacional para fazer ship com IA sem perder o controle. PRD vira grafo persistente. Grafo vira tasks atômicas com critérios de aceite. Tasks vira PR com testes. Tudo local, tudo rastreado, zero vibe-coding.
 
-- :house: Working from home, coffee in hand
-- :dart: The problem comes first. The solution follows from understanding it
-- :seedling: Always learning, always building
+Quando não estou construindo, escrevo sobre engenharia no [blog](https://diegonogueira.blog) e exploro ideias em side projects como um [jogo de xadrez 3D](https://github.com/DiegoNogueiraDev/xadrez-3D).
+
+- :dart: **Estrutura antes do código** — PRD vira grafo persistente em SQLite, zero trabalho não-rastreado
+- :test_tube: **TDD não-negociável** — toda task tem teste antes da implementação. O agente recusa pular
+- :brain: **Memória que sobrevive ao reload** — contexto comprimido, RAG local, 52 ferramentas MCP
 
 ---
 
@@ -54,15 +56,16 @@ When I'm not building, I write about software engineering on my [blog](https://d
 
 ### :rocket: [mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)
 
-**Autopilot for AI-driven development.**
+**O sistema operacional para fazer ship com IA sem perder o controle.**
 
-A local-first MCP server that transforms Product Requirements Documents (PRDs) into persistent execution graphs stored in SQLite. It brings structure, traceability, and automation to the entire software development lifecycle, with no external dependencies required.
+PRD → grafo → TDD → produção. Servidor MCP local-first que transforma documentos de requisitos em grafos de execução persistentes em SQLite. Sem cloud, sem chave de LLM, sem improviso.
 
 ```
-npx -y @mcp-graph-workflow/mcp-graph
+npm install -g @mcp-graph-workflow/mcp-graph
 ```
 
 <p>
+  <img src="https://img.shields.io/badge/productivity-12x-238636?style=flat-square" alt="12x productivity" />
   <img src="https://img.shields.io/badge/tests-5111+-238636?style=flat-square" alt="Tests" />
   <img src="https://img.shields.io/badge/MCP%20tools-52-blue?style=flat-square" alt="MCP Tools" />
   <img src="https://img.shields.io/badge/analyze%20modes-48-blue?style=flat-square" alt="Analyze Modes" />
@@ -71,17 +74,33 @@ npx -y @mcp-graph-workflow/mcp-graph
   <img src="https://img.shields.io/github/license/DiegoNogueiraDev/mcp-graph-workflow?style=flat-square" alt="License" />
 </p>
 
-**9-phase lifecycle:**
+<sub>**12x menos retrabalho** vs prompting solto — medição interna em fluxos PRD→PR completos.</sub>
+
+**Antes vs depois:**
+
+| Sem mcp-graph | Com mcp-graph |
+|---|---|
+| 6 prompts soltos, código que não compila | Grafo persistente, PR pronto |
+| Agente esquece entre sessões | SQLite local, contexto comprimido |
+| TDD opcional, depende do humor do agente | Hook bloqueia commit sem teste primeiro |
+| "Tá pronto?" → adivinhação | `mcp-graph status` em 200 ms |
+
+**Ciclo de 9 fases:**
 
 `ANALYZE` > `DESIGN` > `PLAN` > `IMPLEMENT` > `VALIDATE` > `REVIEW` > `HANDOFF` > `DEPLOY` > `LISTENING`
 
-**Key capabilities:**
-- :zap: Pipeline tools that reduce tool calls by **67%** (`start_task` + `finish_task`)
-- :robot: Agent State Machine: every response tells the agent what to do next
-- :bar_chart: DORA metrics tracking (deployment frequency, lead time, MTTR)
-- :brain: Cross-project learning: import knowledge between projects
-- :mag: Code-aware sync: detects graph-to-code drift across 13 languages
-- :jigsaw: Smart decompose: auto-breaks tasks by acceptance criteria
+**Capacidades-chave:**
+- :zap: Pipeline tools que cortam **67%** das chamadas (`start_task` + `finish_task`)
+- :robot: Agent State Machine: cada resposta indica a próxima ação ao agente
+- :bar_chart: Métricas DORA (deployment frequency, lead time, MTTR)
+- :brain: Cross-project learning: importe conhecimento entre projetos
+- :mag: Code-aware sync: detecta drift grafo↔código em 13 linguagens
+- :jigsaw: Smart decompose: quebra tasks por critério de aceite
+
+**Diferenciação:**
+- vs Cursor / Copilot puros → persistência + governança
+- vs Linear / Jira → executável pelo agente, não só visual
+- vs LangGraph & cia → local-first, zero infra, CLI única
 
 **Works with:** GitHub Copilot · Claude Code · Cursor · IntelliJ · Windsurf · Zed
 
@@ -133,7 +152,7 @@ npx -y @mcp-graph-workflow/mcp-graph
 ---
 
 <p align="center">
-  <i>"The real architecture is not in the code. It's in how deeply you understood the problem."</i>
+  <i>"Disciplina de principal engineer, embutida no agente. Anti-vibe-coding por padrão."</i>
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=100&section=footer" alt="footer" />
