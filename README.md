@@ -1,12 +1,16 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=180&section=header&text=Diego%20Nogueira&fontSize=36&fontColor=e6edf3&fontAlignY=35&desc=PRD%20%E2%86%92%20grafo%20%E2%86%92%20TDD%20%E2%86%92%20produ%C3%A7%C3%A3o.%20Zero%20vibe-coding.&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=180&section=header&text=Diego%20Nogueira&fontSize=36&fontColor=e6edf3&fontAlignY=35&desc=Engenharia%20de%20software%20dirigida%20por%20IA%2C%20com%20disciplina%20de%20principal%20engineer.&descSize=15&descColor=8b949e&descAlignY=55&animation=fadeIn" alt="header" />
 
-<h3 align="center"><i>"Frameworks são sintaxe.<br/>Disciplina é arquitetura. O grafo é a memória."</i></h3>
-<p align="center"><sub>Anti-vibe-coding por padrão. Estrutura antes do código.<br/>Tudo local, tudo rastreado, zero improviso.</sub></p>
+<h3 align="center"><i>"Frameworks são sintaxe.<br/>Disciplina é arquitetura. O grafo é a memória do agente."</i></h3>
+<p align="center"><sub><b>AI-driven software engineering.</b> Agentes fazem o ship, eu mantenho a disciplina.<br/>Anti-vibe-coding por padrão. Tudo local, tudo rastreado, zero improviso.</sub></p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=238636&center=true&vCenter=true&multiline=false&width=720&height=45&lines=PRD+%E2%86%92+grafo+persistente+%E2%86%92+TDD+obrigat%C3%B3rio+%E2%86%92+PR+pronto.;Anti-vibe-coding+por+padr%C3%A3o.+Local-first.+Determin%C3%ADstico.;Creator+of+mcp-graph-workflow.+Made+in+Brazil." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=238636&center=true&vCenter=true&multiline=false&width=760&height=45&lines=AI-driven+software+engineering.+PRD+%E2%86%92+grafo+%E2%86%92+TDD+%E2%86%92+PR+pronto.;Engenharia+de+software+dirigida+por+IA%2C+com+disciplina.;Anti-vibe-coding+por+padr%C3%A3o.+Local-first.+Determin%C3%ADstico.;Creator+of+mcp-graph-workflow.+Made+in+Brazil." alt="Typing SVG" />
   </a>
+</p>
+
+<p align="center">
+  <sub><b>Works with:</b> Claude Code · GitHub Copilot · Cursor · Windsurf · Zed · IntelliJ</sub>
 </p>
 
 <p align="center">
@@ -19,22 +23,39 @@
 
 ## About Me
 
-Sou **Diego Nogueira**, Software Engineer na **Vivo / Telefonica**, Brasil.
+Sou **Diego Nogueira**, Software Engineer na **Vivo / Telefonica** e praticante de **engenharia de software dirigida por IA** — agentes fazem o ship, eu mantenho a disciplina de principal engineer no loop.
 
 A cena que motiva tudo o que construo: 6 prompts soltos no Claude, código que não compila, o agente esquecendo o que foi combinado, PRD virando parede de texto que ninguém relê. É o estado padrão de "fazer ship com IA" em 2026, e é exatamente isso que recuso.
 
-Por isso criei o **[mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)** — o sistema operacional para fazer ship com IA sem perder o controle. PRD vira grafo persistente. Grafo vira tasks atômicas com critérios de aceite. Tasks vira PR com testes. Tudo local, tudo rastreado, zero vibe-coding.
+Por isso criei o **[mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)** — o sistema operacional para fazer **AI-driven software engineering** sem perder o controle. PRD vira grafo persistente. Grafo vira tasks atômicas com critérios de aceite. Tasks vira PR com testes. Tudo local, tudo rastreado, zero vibe-coding.
 
-Quando não estou construindo, escrevo sobre engenharia no [blog](https://diegonogueira.blog) e exploro ideias em side projects como um [jogo de xadrez 3D](https://github.com/DiegoNogueiraDev/xadrez-3D).
+Quando não estou construindo, escrevo sobre engenharia com IA no [blog](https://diegonogueira.blog) e exploro ideias em side projects como um [jogo de xadrez 3D](https://github.com/DiegoNogueiraDev/xadrez-3D).
 
-- :dart: **Estrutura antes do código** — PRD vira grafo persistente em SQLite, zero trabalho não-rastreado
-- :test_tube: **TDD não-negociável** — toda task tem teste antes da implementação. O agente recusa pular
-- :brain: **Memória que sobrevive ao reload** — contexto comprimido, RAG local, 52 ferramentas MCP
+- :dart: **O agente segue PRD, não palpite** — grafo persistente em SQLite, zero trabalho não-rastreado
+- :test_tube: **O agente não pula teste** — TDD bloqueado por hook, recusa implementação sem teste primeiro
+- :brain: **O agente lembra entre sessões** — contexto comprimido, RAG local, 52 ferramentas MCP
+
+---
+
+## Como eu trabalho com IA
+
+Engenharia de software dirigida por IA não é "pedir código pro Claude". É um loop determinístico onde o agente é um operário disciplinado, não um oráculo:
+
+`PRD` → `grafo persistente` → `task atômica com critério de aceite` → `teste primeiro (TDD)` → `código` → `review automatizado` → `PR`
+
+Cada estado é rastreado em SQLite local. O agente não improvisa: se a task não tem teste, o hook bloqueia. Se o grafo divergiu do código, um sync detecta o drift. Se a memória estourou, o RAG comprime. **Disciplina embutida, não dependente do humor do prompt.**
 
 ---
 
 ## Tech Stack
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/MCP-Model%20Context%20Protocol-238636?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/GitHub_Copilot-181717?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="Copilot" />
+  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor" />
+</p>
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000" alt="JavaScript" />
@@ -56,7 +77,7 @@ Quando não estou construindo, escrevo sobre engenharia no [blog](https://diegon
 
 ### :rocket: [mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)
 
-**O sistema operacional para fazer ship com IA sem perder o controle.**
+**O sistema operacional para engenharia de software dirigida por IA, sem perder o controle.**
 
 PRD → grafo → TDD → produção. Servidor MCP local-first que transforma documentos de requisitos em grafos de execução persistentes em SQLite. Sem cloud, sem chave de LLM, sem improviso.
 
@@ -131,6 +152,8 @@ npm install -g @mcp-graph-workflow/mcp-graph
 
 ## Blog & Connect
 
+<p align="center"><sub>Escrevo sobre AI-driven software engineering, MCP e disciplina com agentes.</sub></p>
+
 <p align="center">
   <a href="https://diegonogueira.blog">
     <img src="https://img.shields.io/badge/Blog-diegonogueira.blog-238636?style=for-the-badge&logo=hashnode&logoColor=white" alt="Blog" />
@@ -152,7 +175,7 @@ npm install -g @mcp-graph-workflow/mcp-graph
 ---
 
 <p align="center">
-  <i>"Disciplina de principal engineer, embutida no agente. Anti-vibe-coding por padrão."</i>
+  <i>"Engenharia de software dirigida por IA, com disciplina de principal engineer.<br/>Anti-vibe-coding por padrão."</i>
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=100&section=footer" alt="footer" />
