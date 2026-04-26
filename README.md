@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=DiegoNogueiraDev&label=Profile%20Views&color=238636&style=flat-square" alt="Profile views" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=DiegoNogueiraDev.DiegoNogueiraDev&left_text=Profile%20Views&left_color=555&right_color=238636" alt="Profile views" />
   <img src="https://img.shields.io/github/stars/DiegoNogueiraDev?style=flat-square&color=238636&label=Total%20Stars" alt="Total Stars" />
   <img src="https://img.shields.io/badge/PRO-member-238636?style=flat-square&logo=github" alt="Pro" />
 </p>
