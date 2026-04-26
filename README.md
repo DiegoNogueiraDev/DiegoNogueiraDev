@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=238636&center=true&vCenter=true&multiline=false&width=760&height=45&lines=AISE+practitioner+%E2%80%94+AI-driven+software+engineering+com+disciplina+de+principal.;Engenharia+de+software+dirigida+por+IA%2C+com+disciplina.;Anti-vibe-coding+por+padr%C3%A3o.+Local-first.+Determin%C3%ADstico.;Creator+of+mcp-graph-workflow.+Made+in+Brazil." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=238636&center=true&vCenter=true&multiline=false&width=760&height=45&lines=AI-driven+software+engineering.+PRD+%E2%86%92+grafo+%E2%86%92+TDD+%E2%86%92+PR+pronto.;Engenharia+de+software+dirigida+por+IA%2C+com+disciplina.;Anti-vibe-coding+por+padr%C3%A3o.+Local-first.+Determin%C3%ADstico.;Creator+of+mcp-graph-workflow.+Made+in+Brazil." alt="Typing SVG" />
   </a>
 </p>
 
@@ -23,11 +23,11 @@
 
 ## About Me
 
-Sou **Diego Nogueira**, Software Engineer na **Vivo / Telefonica** e praticante de **AISE — AI-driven Software Engineering** (engenharia de software dirigida por IA) — agentes fazem o ship, eu mantenho a disciplina de principal engineer no loop.
+Sou **Diego Nogueira**, Software Engineer na **Vivo / Telefonica** e praticante de **engenharia de software dirigida por IA** — agentes fazem o ship, eu mantenho a disciplina de principal engineer no loop.
 
 A cena que motiva tudo o que construo: 6 prompts soltos no Claude, código que não compila, o agente esquecendo o que foi combinado, PRD virando parede de texto que ninguém relê. É o estado padrão de "fazer ship com IA" em 2026, e é exatamente isso que recuso.
 
-Por isso criei o **[mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)** — a camada de runtime que torna **AISE** viável no fluxo diário, sem perder o controle. PRD vira grafo persistente. Grafo vira tasks atômicas com critérios de aceite. Tasks vira PR com testes. Tudo local, tudo rastreado, zero vibe-coding.
+Por isso criei o **[mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)** — a ferramenta que uso pra fazer isso sem perder o controle. PRD vira grafo persistente. Grafo vira tasks atômicas com critérios de aceite. Tasks vira PR com testes. Tudo local, tudo rastreado, zero vibe-coding.
 
 Quando não estou construindo, escrevo sobre engenharia com IA no [blog](https://diegonogueira.blog) e exploro ideias em side projects como um [jogo de xadrez 3D](https://github.com/DiegoNogueiraDev/xadrez-3D).
 
@@ -44,11 +44,6 @@ Engenharia de software dirigida por IA não é "pedir código pro Claude". É um
 `PRD` → `grafo persistente` → `task atômica com critério de aceite` → `teste primeiro (TDD)` → `código` → `review automatizado` → `PR`
 
 Cada estado é rastreado em SQLite local. O agente não improvisa: se a task não tem teste, o hook bloqueia. Se o grafo divergiu do código, um sync detecta o drift. Se a memória estourou, o RAG comprime. **Disciplina embutida, não dependente do humor do prompt.**
-
-Esse loop materializa as duas metodologias canônicas da AISE:
-
-- **SDD — Specification-Driven Development:** PRD vira grafo de specs executáveis com critério de aceite. TDD obrigatório torna o teste a forma executável da especificação. Raízes em métodos formais e BDD.
-- **CDE — Context-Driven Engineering:** grafo persistente + RAG local + memory snapshots dão contexto completo ao agente. Reduz a fração não-determinística do output.
 
 ---
 
@@ -82,7 +77,7 @@ Esse loop materializa as duas metodologias canônicas da AISE:
 
 ### :rocket: [mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)
 
-**A camada de runtime local-first para AISE — engenharia de software dirigida por IA com disciplina embutida.**
+**Faz engenharia de software com IA sem perder o controle.**
 
 PRD → grafo → TDD → produção. Servidor MCP local-first que transforma documentos de requisitos em grafos de execução persistentes em SQLite. Sem cloud, sem chave de LLM, sem improviso.
 
@@ -122,8 +117,6 @@ npm install -g @mcp-graph-workflow/mcp-graph
 - :brain: Cross-project learning: importe conhecimento entre projetos
 - :mag: Code-aware sync: detecta drift grafo↔código em 13 linguagens
 - :jigsaw: Smart decompose: quebra tasks por critério de aceite
-
-> **Validação externa:** o [DORA Report 2025](https://www.infoq.com/news/2026/03/ai-dora-report/) identifica "capacidades de plataforma maduras" como condição necessária para AI converter produtividade em entrega. mcp-graph é literalmente essa camada.
 
 **Diferenciação:**
 - vs Cursor / Copilot puros → persistência + governança
