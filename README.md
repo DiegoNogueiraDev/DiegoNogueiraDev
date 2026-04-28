@@ -1,92 +1,83 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=180&section=header&text=Diego%20Nogueira&fontSize=36&fontColor=e6edf3&fontAlignY=35&desc=Engenharia%20de%20software%20dirigida%20por%20IA%2C%20com%20disciplina%20de%20principal%20engineer.&descSize=15&descColor=8b949e&descAlignY=55&animation=fadeIn" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1530,100:7C3AED&height=180&section=header&text=Diego%20Nogueira&fontSize=36&fontColor=e6edf3&fontAlignY=35&desc=AISE%20%C2%B7%20Independent%20research%20on%20AI-driven%20software%20engineering&descSize=15&descColor=A78BFA&descAlignY=55&animation=fadeIn" alt="header" />
 
 <h3 align="center"><i>"Frameworks são sintaxe.<br/>Disciplina é arquitetura. O grafo é a memória do agente."</i></h3>
-<p align="center"><sub><b>AI-driven software engineering.</b> Agentes fazem o ship, eu mantenho a disciplina.<br/>Anti-vibe-coding por padrão. Tudo local, tudo rastreado, zero improviso.</sub></p>
+<p align="center"><sub><b>AISE</b> · Independent research · Field-tested via <a href="https://github.com/DiegoNogueiraDev/mcp-graph-workflow"><code>mcp-graph-workflow</code></a></sub></p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=238636&center=true&vCenter=true&multiline=false&width=760&height=45&lines=AI-driven+software+engineering.+PRD+%E2%86%92+grafo+%E2%86%92+TDD+%E2%86%92+PR+pronto.;Engenharia+de+software+dirigida+por+IA%2C+com+disciplina.;Anti-vibe-coding+por+padr%C3%A3o.+Local-first.+Determin%C3%ADstico.;Creator+of+mcp-graph-workflow.+Made+in+Brazil." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=false&width=760&height=45&lines=AISE+%E2%80%94+AI-driven+software+engineering%2C+as+a+research+practice.;Researching+harness+search%3A+how+the+agent+finds+context.;Field+proof%3A+mcp-graph-workflow.+Local-first.+Determin%C3%ADstico." alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <sub><b>Works with:</b> Claude Code · GitHub Copilot · Cursor · Windsurf · Zed · IntelliJ</sub>
-</p>
-
-<p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=DiegoNogueiraDev.DiegoNogueiraDev&left_text=Profile%20Views&left_color=555&right_color=238636" alt="Profile views" />
-  <img src="https://img.shields.io/github/stars/DiegoNogueiraDev?style=flat-square&color=238636&label=Total%20Stars" alt="Total Stars" />
-  <img src="https://img.shields.io/badge/PRO-member-238636?style=flat-square&logo=github" alt="Pro" />
+  <img src="https://img.shields.io/badge/AISE-independent%20research-7C3AED?style=flat-square&labelColor=0d1117" alt="AISE" />
+  <img src="https://img.shields.io/badge/focus-harness%20search-A78BFA?style=flat-square&labelColor=0d1117" alt="Harness Search" />
+  <img src="https://img.shields.io/github/stars/DiegoNogueiraDev?style=flat-square&color=7C3AED&labelColor=0d1117&label=Total%20Stars" alt="Total Stars" />
   <a href="https://mcp-graph-workflow-dashboard.vercel.app/">
-    <img src="https://img.shields.io/badge/mcp--graph-live%20dashboard-238636?style=flat-square&logo=vercel&logoColor=white" alt="mcp-graph dashboard" />
+    <img src="https://img.shields.io/badge/mcp--graph-live%20dashboard-7C3AED?style=flat-square&logo=vercel&logoColor=white&labelColor=0d1117" alt="mcp-graph dashboard" />
   </a>
 </p>
 
 ---
 
-## About Me
+## About
 
-Sou **Diego Nogueira**, Software Engineer na **Vivo / Telefonica** e praticante de **engenharia de software dirigida por IA** — agentes fazem o ship, eu mantenho a disciplina de principal engineer no loop.
+Software Engineer na **Vivo / Telefónica**, pesquisador independente em **AISE** — *AI-driven Software Engineering*. Trato engenharia com agentes como prática de pesquisa: hipótese → harness → medição → publicação.
 
-A cena que motiva tudo o que construo: 6 prompts soltos no Claude, código que não compila, o agente esquecendo o que foi combinado, PRD virando parede de texto que ninguém relê. É o estado padrão de "fazer ship com IA" em 2026, e é exatamente isso que recuso.
-
-Por isso criei o **[mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)** ([dashboard ao vivo](https://mcp-graph-workflow-dashboard.vercel.app/)) — a ferramenta que uso pra fazer isso sem perder o controle. PRD vira grafo persistente. Grafo vira tasks atômicas com critérios de aceite. Tasks vira PR com testes. Tudo local, tudo rastreado, zero vibe-coding.
-
-Quando não estou construindo, escrevo sobre engenharia com IA no [blog](https://diegonogueira.blog) e exploro ideias em side projects como um [jogo de xadrez 3D](https://github.com/DiegoNogueiraDev/xadrez-3D).
-
-- :dart: **O agente segue PRD, não palpite** — grafo persistente em SQLite, zero trabalho não-rastreado
-- :test_tube: **O agente não pula teste** — TDD bloqueado por hook, recusa implementação sem teste primeiro
-- :brain: **O agente lembra entre sessões** — contexto comprimido, RAG local, 52 ferramentas MCP
+- :microscope: **Pesquisa independente em AISE** — laboratório pessoal sobre como agentes de código deveriam realmente operar em produção.
+- :mag: **Foco atual: harness search** — como o agente busca código, contexto e memória dentro do próprio harness, sem alucinar nem estourar contexto.
+- :rocket: **Field proof: [mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)** — onde a pesquisa vira ferramenta usável. PRD → grafo → TDD → PR, local-first, AGPL.
 
 ---
 
-## Como eu trabalho com IA
+## AISE — Independent research
 
-Engenharia de software dirigida por IA não é "pedir código pro Claude". É um loop determinístico onde o agente é um operário disciplinado, não um oráculo:
+**AISE** (*AI-driven Software Engineering*) é meu selo de pesquisa aplicada: um lab de uma pessoa só, focado em transformar "fazer ship com IA" de prática folclórica em disciplina mensurável.
 
-`PRD` → `grafo persistente` → `task atômica com critério de aceite` → `teste primeiro (TDD)` → `código` → `review automatizado` → `PR`
+Linhas ativas:
 
-Cada estado é rastreado em SQLite local. O agente não improvisa: se a task não tem teste, o hook bloqueia. Se o grafo divergiu do código, um sync detecta o drift. Se a memória estourou, o RAG comprime. **Disciplina embutida, não dependente do humor do prompt.**
+| Linha | Pergunta | Status |
+|---|---|---|
+| **Harness Search** | Como o agente *encontra* contexto sem alucinar nem estourar a janela? | Em destaque (§ abaixo) |
+| **Determinismo via grafo persistente** | Pode-se reduzir entropia de geração ancorando o agente em PRD→grafo→PR rastreável? | Em produção via mcp-graph-workflow |
+| **Memory & context compression** | Como preservar decisões através de sessões sem inflar contexto? | Em iteração |
 
----
-
-## Tech Stack
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
-  <img src="https://img.shields.io/badge/MCP-Model%20Context%20Protocol-238636?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
-  <img src="https://img.shields.io/badge/GitHub_Copilot-181717?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="Copilot" />
-  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-</p>
+Notas de pesquisa publicadas no [blog](https://diegonogueira.blog).
 
 ---
 
-## Featured Project
+## Research focus — Harness Search
 
-<table align="center">
-<tr>
-<td>
+> *Como o agente busca dentro do próprio harness — código, contexto, memória, decisões prévias — sem alucinar e sem estourar contexto.*
+
+Search dentro do harness é o que separa **agente que adivinha** de **agente que sabe**. É também o gargalo silencioso da maioria dos workflows com IA hoje: o agente "esquece" não porque não tem memória, mas porque não sabe **buscar** a memória que tem.
+
+```
+   query  →  embeddings  →  grafo SQLite  →  AST  →  ranked context  →  agente
+                  ↑                                              │
+                  └──────────────  feedback loop  ───────────────┘
+```
+
+Quatro frentes de investigação:
+
+- :brain: **Local RAG sobre SQLite** — embeddings de PRD, tasks e decisões; recall semântico em <50 ms, zero cloud.
+- :compass: **Code-aware search multi-linguagem** — sync grafo↔código detecta drift; grep agentic com awareness de AST em 13 linguagens.
+- :package: **Context compression hierárquica** — resumos preservam decisões através de sessões sem replay do histórico cru.
+- :test_tube: **Retrieval-grounded TDD** — antes de propor implementação, o agente *busca* testes/casos existentes; hook bloqueia quando não busca.
+
+Tudo isso roda dentro do **mcp-graph-workflow** — a próxima seção é a prova de campo.
+
+---
+
+## Field proof — mcp-graph-workflow
 
 ### :rocket: [mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)
 
-**Faz engenharia de software com IA sem perder o controle.**
+Onde a pesquisa AISE vira ferramenta. **Servidor MCP local-first** que transforma PRDs em grafos de execução persistentes em SQLite, com RAG embarcado e hooks de TDD. Sem cloud, sem chave de LLM, sem improviso.
 
-PRD → grafo → TDD → produção. Servidor MCP local-first que transforma documentos de requisitos em grafos de execução persistentes em SQLite. Sem cloud, sem chave de LLM, sem improviso.
-
-<p align="center">
+<p>
   <a href="https://mcp-graph-workflow-dashboard.vercel.app/">
-    <img src="https://img.shields.io/badge/%E2%9C%A8%20Live%20Dashboard-mcp--graph--workflow.vercel.app-238636?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Dashboard" />
+    <img src="https://img.shields.io/badge/%E2%9C%A8%20Live%20Dashboard-mcp--graph--workflow.vercel.app-7C3AED?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117" alt="Live Dashboard" />
   </a>
   <a href="https://github.com/DiegoNogueiraDev/mcp-graph-workflow">
     <img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" />
@@ -98,77 +89,84 @@ npm install -g @mcp-graph-workflow/mcp-graph
 ```
 
 <p>
-  <img src="https://img.shields.io/badge/productivity-12x-238636?style=flat-square" alt="12x productivity" />
-  <img src="https://img.shields.io/badge/tests-5111+-238636?style=flat-square" alt="Tests" />
-  <img src="https://img.shields.io/badge/MCP%20tools-52-blue?style=flat-square" alt="MCP Tools" />
-  <img src="https://img.shields.io/badge/analyze%20modes-48-blue?style=flat-square" alt="Analyze Modes" />
-  <img src="https://img.shields.io/badge/engineering%20skills-30-blue?style=flat-square" alt="Skills" />
-  <img src="https://img.shields.io/github/stars/DiegoNogueiraDev/mcp-graph-workflow?style=flat-square&color=238636" alt="Stars" />
-  <img src="https://img.shields.io/badge/license-AGPL%20v3-238636?style=flat-square" alt="AGPL v3" />
+  <img src="https://img.shields.io/badge/MCP%20tools-50%2B-7C3AED?style=flat-square&labelColor=0d1117" alt="MCP Tools" />
+  <img src="https://img.shields.io/badge/cycle-9%20phases-A78BFA?style=flat-square&labelColor=0d1117" alt="Phases" />
+  <img src="https://img.shields.io/badge/persistence-SQLite-A78BFA?style=flat-square&labelColor=0d1117" alt="SQLite" />
+  <img src="https://img.shields.io/github/stars/DiegoNogueiraDev/mcp-graph-workflow?style=flat-square&color=7C3AED&labelColor=0d1117" alt="Stars" />
+  <img src="https://img.shields.io/badge/license-AGPL%20v3-7C3AED?style=flat-square&labelColor=0d1117" alt="AGPL v3" />
 </p>
-
-<sub>**12x menos retrabalho** vs prompting solto — medição interna em fluxos PRD→PR completos.</sub>
-
-**Antes vs depois:**
-
-| Sem mcp-graph | Com mcp-graph |
-|---|---|
-| 6 prompts soltos, código que não compila | Grafo persistente, PR pronto |
-| Agente esquece entre sessões | SQLite local, contexto comprimido |
-| TDD opcional, depende do humor do agente | Hook bloqueia commit sem teste primeiro |
-| "Tá pronto?" → adivinhação | `mcp-graph status` em 200 ms |
 
 **Ciclo de 9 fases:**
 
-`ANALYZE` > `DESIGN` > `PLAN` > `IMPLEMENT` > `VALIDATE` > `REVIEW` > `HANDOFF` > `DEPLOY` > `LISTENING`
+`ANALYZE` → `DESIGN` → `PLAN` → `IMPLEMENT` → `VALIDATE` → `REVIEW` → `HANDOFF` → `DEPLOY` → `LISTENING`
 
 **Capacidades-chave:**
-- :zap: Pipeline tools que cortam **67%** das chamadas (`start_task` + `finish_task`)
-- :robot: Agent State Machine: cada resposta indica a próxima ação ao agente
-- :bar_chart: Métricas DORA (deployment frequency, lead time, MTTR)
-- :brain: Cross-project learning: importe conhecimento entre projetos
-- :mag: Code-aware sync: detecta drift grafo↔código em 13 linguagens
-- :jigsaw: Smart decompose: quebra tasks por critério de aceite
+
+- :zap: Pipeline tools que reduzem chamadas MCP em ordem de grandeza (`start_task` + `finish_task`).
+- :robot: Agent State Machine: cada resposta indica a próxima ação ao agente.
+- :bar_chart: Métricas DORA (deployment frequency, lead time, MTTR) embutidas.
+- :brain: Cross-project learning: importa conhecimento entre projetos.
+- :mag: Code-aware sync detecta drift grafo↔código em 13 linguagens.
+- :jigsaw: Smart decompose quebra tasks por critério de aceite.
 
 **Diferenciação:**
-- vs Cursor / Copilot puros → persistência + governança
-- vs Linear / Jira → executável pelo agente, não só visual
-- vs LangGraph & cia → local-first, zero infra, CLI única
 
-**Works with:** GitHub Copilot · Claude Code · Cursor · IntelliJ · Windsurf · Zed
+- vs Cursor / Copilot puros → persistência + governança entre sessões.
+- vs Linear / Jira → grafo executável pelo agente, não só visual.
+- vs LangGraph & cia → local-first, zero infra, CLI única.
 
-</td>
-</tr>
-</table>
+> Métricas de produtividade e redução de retrabalho são medições internas em fluxos PRD→PR completos. Metodologia detalhada no [blog](https://diegonogueira.blog).
+
+**Works with:** Claude Code · GitHub Copilot · Cursor · Windsurf · Zed · IntelliJ
 
 ---
 
-## GitHub Stats
+## Other work
+
+- :chess_pawn: **[xadrez-3D](https://github.com/DiegoNogueiraDev/xadrez-3D)** — side project em 3D, exercício de física e UX.
+- :pencil: **[diegonogueira.blog](https://diegonogueira.blog)** — research notes em AISE, MCP e disciplina com agentes.
+
+---
+
+## Stack
+
+Trabalho em **TypeScript / Node** sobre **SQLite** local, com **Vitest** + **Playwright** pra harness de testes, **MCP** como protocolo de tools e **Claude** como modelo principal de agente.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/MCP-Model%20Context%20Protocol-7C3AED?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest" />
+</p>
+
+---
+
+## GitHub
 
 <p align="center">
   <a href="https://github.com/DiegoNogueiraDev">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=DiegoNogueiraDev&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=238636&icon_color=238636&text_color=e6edf3&ring_color=238636&include_all_commits=true&count_private=true" alt="Diego's GitHub Stats" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=DiegoNogueiraDev&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7C3AED&icon_color=A78BFA&text_color=e6edf3&ring_color=7C3AED&include_all_commits=true&count_private=true" alt="Diego's GitHub Stats" />
   </a>
   <a href="https://github.com/DiegoNogueiraDev">
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoNogueiraDev&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=238636&text_color=e6edf3&langs_count=8" alt="Top Languages" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoNogueiraDev&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7C3AED&text_color=e6edf3&langs_count=8" alt="Top Languages" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/DiegoNogueiraDev">
-    <img src="https://streak-stats.demolab.com/?user=DiegoNogueiraDev&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=238636&ring=238636&fire=238636&currStreakLabel=238636&sideLabels=e6edf3&currStreakNum=e6edf3&sideNums=e6edf3&dates=8b949e" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com/?user=DiegoNogueiraDev&theme=radical&hide_border=true&background=0d1117&stroke=7C3AED&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=e6edf3&currStreakNum=e6edf3&sideNums=e6edf3&dates=8b949e" alt="GitHub Streak" />
   </a>
 </p>
 
 ---
 
-## Blog & Connect
-
-<p align="center"><sub>Escrevo sobre AI-driven software engineering, MCP e disciplina com agentes.</sub></p>
+## Connect
 
 <p align="center">
   <a href="https://diegonogueira.blog">
-    <img src="https://img.shields.io/badge/Blog-diegonogueira.blog-238636?style=for-the-badge&logo=hashnode&logoColor=white" alt="Blog" />
+    <img src="https://img.shields.io/badge/Blog-diegonogueira.blog-7C3AED?style=for-the-badge&logo=hashnode&logoColor=white" alt="Blog" />
   </a>
   <a href="https://linkedin.com/in/diegonogueirapaula">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -186,8 +184,4 @@ npm install -g @mcp-graph-workflow/mcp-graph
 
 ---
 
-<p align="center">
-  <i>"Engenharia de software dirigida por IA, com disciplina de principal engineer.<br/>Anti-vibe-coding por padrão."</i>
-</p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=100&section=footer" alt="footer" />
+<p align="center"><i>AISE — research first, ship second, hype never.</i></p>
