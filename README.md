@@ -12,6 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/AISE-independent%20research-7C3AED?style=flat-square&labelColor=0d1117" alt="AISE" />
   <img src="https://img.shields.io/badge/focus-harness%20search-A78BFA?style=flat-square&labelColor=0d1117" alt="Harness Search" />
+  <img src="https://img.shields.io/badge/mcp--graph-v13%20%C2%B7%20anti--hallucination-7C3AED?style=flat-square&labelColor=0d1117" alt="MCP-Graph v13" />
   <img src="https://img.shields.io/github/stars/DiegoNogueiraDev?style=flat-square&color=7C3AED&labelColor=0d1117&label=Total%20Stars" alt="Total Stars" />
   <a href="https://mcp-graph-workflow-dashboard.vercel.app/">
     <img src="https://img.shields.io/badge/mcp--graph-live%20dashboard-7C3AED?style=flat-square&logo=vercel&logoColor=white&labelColor=0d1117" alt="mcp-graph dashboard" />
@@ -58,12 +59,13 @@ Search dentro do harness é o que separa **agente que adivinha** de **agente que
                   └──────────────  feedback loop  ───────────────┘
 ```
 
-Quatro frentes de investigação:
+Cinco frentes de investigação:
 
 - :brain: **Local RAG sobre SQLite** — embeddings de PRD, tasks e decisões; recall semântico em <50 ms, zero cloud.
 - :compass: **Code-aware search multi-linguagem** — sync grafo↔código detecta drift; grep agentic com awareness de AST em 13 linguagens.
 - :package: **Context compression hierárquica** — resumos preservam decisões através de sessões sem replay do histórico cru.
 - :test_tube: **Retrieval-grounded TDD** — antes de propor implementação, o agente *busca* testes/casos existentes; hook bloqueia quando não busca.
+- :shield: **Citation-enforced anti-hallucination** *(MCP-Graph v13 · `epic-13`)* — código novo em `src/core/` precisa citar o ADR ou epic que motivou a decisão. Sem citation, o validator `validateFilesCitations` bloqueia o commit. Search vira **grounding obrigatório**, não opcional — se o agente não cita, é sinal de que está alucinando.
 
 Tudo isso roda dentro do **mcp-graph-workflow** — a próxima seção é a prova de campo.
 
@@ -88,6 +90,14 @@ Onde a pesquisa AISE vira ferramenta. **Servidor MCP local-first** que transform
 npm install -g @mcp-graph-workflow/mcp-graph
 ```
 
+> ### :shield: v13 spotlight — Citation-enforced anti-hallucination
+>
+> Quando um agente AI escreve código novo em `src/core/`, ele é **obrigado a citar** qual ADR ou epic motivou a decisão. Se não consegue citar, é sinal de que está alucinando — implementando sem base no spec. O validator **`validateFilesCitations`** flagra arquivos novos em `src/core/` sem citation como **violation** e bloqueia o commit.
+>
+> `search` → `grounding` → `citation` → `validation` — o loop fecha. Search deixa de ser conveniência e vira **pré-condição** pra escrever código.
+>
+> *Disponível desde a **v13** · tag `epic-13` · validator: `validateFilesCitations`.*
+
 <p>
   <img src="https://img.shields.io/badge/MCP%20tools-50%2B-7C3AED?style=flat-square&labelColor=0d1117" alt="MCP Tools" />
   <img src="https://img.shields.io/badge/cycle-9%20phases-A78BFA?style=flat-square&labelColor=0d1117" alt="Phases" />
@@ -102,6 +112,7 @@ npm install -g @mcp-graph-workflow/mcp-graph
 
 **Capacidades-chave:**
 
+- :shield: **Anti-hallucination via citation enforcement (v13)** — `validateFilesCitations` exige ADR/epic em todo arquivo novo de `src/core/`; sem citation, sem commit.
 - :zap: Pipeline tools que reduzem chamadas MCP em ordem de grandeza (`start_task` + `finish_task`).
 - :robot: Agent State Machine: cada resposta indica a próxima ação ao agente.
 - :bar_chart: Métricas DORA (deployment frequency, lead time, MTTR) embutidas.
