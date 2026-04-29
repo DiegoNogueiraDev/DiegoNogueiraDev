@@ -1,11 +1,11 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1530,100:7C3AED&height=180&section=header&text=Diego%20Nogueira&fontSize=36&fontColor=e6edf3&fontAlignY=35&desc=AISE%20%C2%B7%20Independent%20research%20on%20AI-driven%20software%20engineering&descSize=15&descColor=A78BFA&descAlignY=55&animation=fadeIn" alt="header" />
 
-<h3 align="center"><i>"Frameworks são sintaxe.<br/>Disciplina é arquitetura. O grafo é a memória do agente."</i></h3>
+<h3 align="center"><i>"Frameworks are syntax.<br/>Discipline is architecture. The graph is the agent's memory."</i></h3>
 <p align="center"><sub><b>AISE</b> · Independent research · Field-tested via <a href="https://github.com/DiegoNogueiraDev/mcp-graph-workflow"><code>mcp-graph-workflow</code></a></sub></p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=false&width=760&height=45&lines=AISE+%E2%80%94+AI-driven+software+engineering%2C+as+a+research+practice.;Researching+harness+search%3A+how+the+agent+finds+context.;Field+proof%3A+mcp-graph-workflow.+Local-first.+Determin%C3%ADstico." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=false&width=760&height=45&lines=AISE+%E2%80%94+AI-driven+software+engineering%2C+as+a+research+practice.;Researching+harness+search%3A+how+the+agent+finds+context.;Field+proof%3A+mcp-graph-workflow.+Local-first.+Deterministic." alt="Typing SVG" />
   </a>
 </p>
 
@@ -23,51 +23,51 @@
 
 ## About
 
-Software Engineer na **Vivo / Telefónica**, pesquisador independente em **AISE** — *AI-driven Software Engineering*. Trato engenharia com agentes como prática de pesquisa: hipótese → harness → medição → publicação.
+Software Engineer at **Vivo / Telefónica**, independent researcher in **AISE** — *AI-driven Software Engineering*. I treat engineering with agents as a research practice: hypothesis → harness → measurement → publication.
 
-- :microscope: **Pesquisa independente em AISE** — laboratório pessoal sobre como agentes de código deveriam realmente operar em produção.
-- :mag: **Foco atual: harness search** — como o agente busca código, contexto e memória dentro do próprio harness, sem alucinar nem estourar contexto.
-- :rocket: **Field proof: [mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)** — onde a pesquisa vira ferramenta usável. PRD → grafo → TDD → PR, local-first, AGPL.
+- :microscope: **Independent AISE research** — a one-person lab on how coding agents should actually operate in production.
+- :mag: **Current focus: harness search** — how the agent retrieves code, context and memory inside its own harness, without hallucinating or blowing the context window.
+- :rocket: **Field proof: [mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)** — where the research turns into a usable tool. PRD → graph → TDD → PR, local-first, AGPL.
 
 ---
 
 ## AISE — Independent research
 
-**AISE** (*AI-driven Software Engineering*) é meu selo de pesquisa aplicada: um lab de uma pessoa só, focado em transformar "fazer ship com IA" de prática folclórica em disciplina mensurável.
+**AISE** (*AI-driven Software Engineering*) is my applied-research label: a one-person lab focused on turning "shipping with AI" from folklore into measurable discipline.
 
-Linhas ativas:
+Active lines of work:
 
-| Linha | Pergunta | Status |
+| Line | Question | Status |
 |---|---|---|
-| **Harness Search** | Como o agente *encontra* contexto sem alucinar nem estourar a janela? | Em destaque (§ abaixo) |
-| **Determinismo via grafo persistente** | Pode-se reduzir entropia de geração ancorando o agente em PRD→grafo→PR rastreável? | Em produção via mcp-graph-workflow |
-| **Memory & context compression** | Como preservar decisões através de sessões sem inflar contexto? | Em iteração |
+| **Harness Search** | How does the agent *find* context without hallucinating or blowing the window? | Spotlight (§ below) |
+| **Determinism via persistent graph** | Can generation entropy be reduced by anchoring the agent on a traceable PRD → graph → PR? | Shipping via mcp-graph-workflow |
+| **Memory & context compression** | How to preserve decisions across sessions without inflating context? | Iterating |
 
-Notas de pesquisa publicadas no [blog](https://diegonogueira.blog).
+Research notes published on the [blog](https://diegonogueira.blog).
 
 ---
 
 ## Research focus — Harness Search
 
-> *Como o agente busca dentro do próprio harness — código, contexto, memória, decisões prévias — sem alucinar e sem estourar contexto.*
+> *How the agent searches inside its own harness — code, context, memory, prior decisions — without hallucinating or blowing the context window.*
 
-Search dentro do harness é o que separa **agente que adivinha** de **agente que sabe**. É também o gargalo silencioso da maioria dos workflows com IA hoje: o agente "esquece" não porque não tem memória, mas porque não sabe **buscar** a memória que tem.
+Search inside the harness is what separates **an agent that guesses** from **an agent that knows**. It's also the silent bottleneck of most AI workflows today: the agent "forgets" not because it lacks memory, but because it doesn't know how to **search** the memory it has.
 
 ```
-   query  →  embeddings  →  grafo SQLite  →  AST  →  ranked context  →  agente
-                  ↑                                              │
-                  └──────────────  feedback loop  ───────────────┘
+   query  →  embeddings  →  SQLite graph  →  AST  →  ranked context  →  agent
+                  ↑                                               │
+                  └──────────────  feedback loop  ────────────────┘
 ```
 
-Cinco frentes de investigação:
+Five lines of investigation:
 
-- :brain: **Local RAG sobre SQLite** — embeddings de PRD, tasks e decisões; recall semântico em <50 ms, zero cloud.
-- :compass: **Code-aware search multi-linguagem** — sync grafo↔código detecta drift; grep agentic com awareness de AST em 13 linguagens.
-- :package: **Context compression hierárquica** — resumos preservam decisões através de sessões sem replay do histórico cru.
-- :test_tube: **Retrieval-grounded TDD** — antes de propor implementação, o agente *busca* testes/casos existentes; hook bloqueia quando não busca.
-- :shield: **Citation-enforced anti-hallucination** *(MCP-Graph v13 · `epic-13`)* — código novo em `src/core/` precisa citar o ADR ou epic que motivou a decisão. Sem citation, o validator `validateFilesCitations` bloqueia o commit. Search vira **grounding obrigatório**, não opcional — se o agente não cita, é sinal de que está alucinando.
+- :brain: **Local RAG over SQLite** — embeddings of PRDs, tasks and decisions; semantic recall in <50 ms, zero cloud.
+- :compass: **Code-aware multi-language search** — graph↔code sync detects drift; agentic grep with AST awareness across 13 languages.
+- :package: **Hierarchical context compression** — summaries preserve decisions across sessions without replaying the raw history.
+- :test_tube: **Retrieval-grounded TDD** — before proposing implementation, the agent *searches* for existing tests/cases; a hook blocks the commit when it skips that step.
+- :shield: **Citation-enforced anti-hallucination** *(MCP-Graph v13 · `epic-13`)* — new code under `src/core/` must cite the ADR or epic that motivated the decision. If it doesn't, the `validateFilesCitations` validator blocks the commit. Search becomes **mandatory grounding**, not a nice-to-have — when the agent can't cite, that's a hallucination signal.
 
-Tudo isso roda dentro do **mcp-graph-workflow** — a próxima seção é a prova de campo.
+All of this runs inside **mcp-graph-workflow** — the next section is the field proof.
 
 ---
 
@@ -75,7 +75,7 @@ Tudo isso roda dentro do **mcp-graph-workflow** — a próxima seção é a prov
 
 ### :rocket: [mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)
 
-Onde a pesquisa AISE vira ferramenta. **Servidor MCP local-first** que transforma PRDs em grafos de execução persistentes em SQLite, com RAG embarcado e hooks de TDD. Sem cloud, sem chave de LLM, sem improviso.
+Where AISE research turns into a tool. A **local-first MCP server** that converts PRDs into persistent execution graphs on SQLite, with embedded RAG and TDD hooks. No cloud, no LLM key, no improvisation.
 
 <p>
   <a href="https://mcp-graph-workflow-dashboard.vercel.app/">
@@ -92,11 +92,11 @@ npm install -g @mcp-graph-workflow/mcp-graph
 
 > ### :shield: v13 spotlight — Citation-enforced anti-hallucination
 >
-> Quando um agente AI escreve código novo em `src/core/`, ele é **obrigado a citar** qual ADR ou epic motivou a decisão. Se não consegue citar, é sinal de que está alucinando — implementando sem base no spec. O validator **`validateFilesCitations`** flagra arquivos novos em `src/core/` sem citation como **violation** e bloqueia o commit.
+> When an AI agent writes new code under `src/core/`, it is **required to cite** which ADR or epic motivated the decision. If it can't, that's a hallucination signal — implementation with no spec to back it up. The **`validateFilesCitations`** validator flags new files under `src/core/` without citations as a **violation** and blocks the commit.
 >
-> `search` → `grounding` → `citation` → `validation` — o loop fecha. Search deixa de ser conveniência e vira **pré-condição** pra escrever código.
+> `search` → `grounding` → `citation` → `validation` — the loop closes. Search stops being a convenience and becomes a **precondition** for writing code.
 >
-> *Disponível desde a **v13** · tag `epic-13` · validator: `validateFilesCitations`.*
+> *Shipping since **v13** · tag `epic-13` · validator: `validateFilesCitations`.*
 
 <p>
   <img src="https://img.shields.io/badge/MCP%20tools-50%2B-7C3AED?style=flat-square&labelColor=0d1117" alt="MCP Tools" />
@@ -106,27 +106,27 @@ npm install -g @mcp-graph-workflow/mcp-graph
   <img src="https://img.shields.io/badge/license-AGPL%20v3-7C3AED?style=flat-square&labelColor=0d1117" alt="AGPL v3" />
 </p>
 
-**Ciclo de 9 fases:**
+**9-phase cycle:**
 
 `ANALYZE` → `DESIGN` → `PLAN` → `IMPLEMENT` → `VALIDATE` → `REVIEW` → `HANDOFF` → `DEPLOY` → `LISTENING`
 
-**Capacidades-chave:**
+**Key capabilities:**
 
-- :shield: **Anti-hallucination via citation enforcement (v13)** — `validateFilesCitations` exige ADR/epic em todo arquivo novo de `src/core/`; sem citation, sem commit.
-- :zap: Pipeline tools que reduzem chamadas MCP em ordem de grandeza (`start_task` + `finish_task`).
-- :robot: Agent State Machine: cada resposta indica a próxima ação ao agente.
-- :bar_chart: Métricas DORA (deployment frequency, lead time, MTTR) embutidas.
-- :brain: Cross-project learning: importa conhecimento entre projetos.
-- :mag: Code-aware sync detecta drift grafo↔código em 13 linguagens.
-- :jigsaw: Smart decompose quebra tasks por critério de aceite.
+- :shield: **Anti-hallucination via citation enforcement (v13)** — `validateFilesCitations` requires an ADR/epic on every new file under `src/core/`; no citation, no commit.
+- :zap: Pipeline tools that cut MCP calls by an order of magnitude (`start_task` + `finish_task`).
+- :robot: Agent State Machine: every response signals the next action to the agent.
+- :bar_chart: Built-in DORA metrics (deployment frequency, lead time, MTTR).
+- :brain: Cross-project learning: import knowledge across projects.
+- :mag: Code-aware sync detects graph↔code drift across 13 languages.
+- :jigsaw: Smart decompose splits tasks by acceptance criterion.
 
-**Diferenciação:**
+**Differentiation:**
 
-- vs Cursor / Copilot puros → persistência + governança entre sessões.
-- vs Linear / Jira → grafo executável pelo agente, não só visual.
-- vs LangGraph & cia → local-first, zero infra, CLI única.
+- vs Cursor / Copilot alone → persistence + governance across sessions.
+- vs Linear / Jira → graph executable by the agent, not just a visual board.
+- vs LangGraph & friends → local-first, zero infra, single CLI.
 
-> Métricas de produtividade e redução de retrabalho são medições internas em fluxos PRD→PR completos. Metodologia detalhada no [blog](https://diegonogueira.blog).
+> Productivity and rework-reduction numbers are internal measurements over end-to-end PRD→PR flows. Methodology detailed on the [blog](https://diegonogueira.blog).
 
 **Works with:** Claude Code · GitHub Copilot · Cursor · Windsurf · Zed · IntelliJ
 
@@ -134,14 +134,14 @@ npm install -g @mcp-graph-workflow/mcp-graph
 
 ## Other work
 
-- :chess_pawn: **[xadrez-3D](https://github.com/DiegoNogueiraDev/xadrez-3D)** — side project em 3D, exercício de física e UX.
-- :pencil: **[diegonogueira.blog](https://diegonogueira.blog)** — research notes em AISE, MCP e disciplina com agentes.
+- :chess_pawn: **[xadrez-3D](https://github.com/DiegoNogueiraDev/xadrez-3D)** — 3D side project, an exercise in physics and UX.
+- :pencil: **[diegonogueira.blog](https://diegonogueira.blog)** — research notes on AISE, MCP and discipline with agents.
 
 ---
 
 ## Stack
 
-Trabalho em **TypeScript / Node** sobre **SQLite** local, com **Vitest** + **Playwright** pra harness de testes, **MCP** como protocolo de tools e **Claude** como modelo principal de agente.
+I work in **TypeScript / Node** on local **SQLite**, with **Vitest** + **Playwright** as the test harness, **MCP** as the tools protocol, and **Claude** as the primary agent model.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
