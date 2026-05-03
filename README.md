@@ -75,7 +75,15 @@ All of this runs inside **mcp-graph-workflow** — the next section is the field
 
 ### :rocket: [mcp-graph-workflow](https://github.com/DiegoNogueiraDev/mcp-graph-workflow)
 
+<p align="center">
+  <a href="https://github.com/DiegoNogueiraDev/mcp-graph-workflow">
+    <img src="https://raw.githubusercontent.com/DiegoNogueiraDev/mcp-graph-workflow/master/docs/images/hero.jpg" alt="From PRD to Execution Graph — We don't just plan your work. We orchestrate it." width="100%" />
+  </a>
+</p>
+
 Where AISE research turns into a tool. A **local-first MCP server** that converts PRDs into persistent execution graphs on SQLite, with embedded RAG and TDD hooks. No cloud, no LLM key, no improvisation.
+
+> *From PRD to Execution Graph — we don't just plan your work, we orchestrate it.*
 
 <p>
   <a href="https://mcp-graph-workflow-dashboard.vercel.app/">
@@ -128,7 +136,14 @@ npm install -g @mcp-graph-workflow/mcp-graph
 
 > Productivity and rework-reduction numbers are internal measurements over end-to-end PRD→PR flows. Methodology detailed on the [blog](https://diegonogueira.blog).
 
-**Works with:** Claude Code · GitHub Copilot · Cursor · Windsurf · Zed · IntelliJ
+**Compatibility:**
+
+| Client | How it connects | Status in repo |
+|---|---|---|
+| Claude Code | `.mcp.json` + `.claude/` (hooks, rules, skills) | ✅ Pre-configured |
+| GitHub Copilot (VS Code) | `.vscode/mcp.json` | ✅ Pre-configured |
+| Gemini CLI | `.gemini/settings.json` | ✅ Pre-configured |
+| Codex · Cursor · OpenCode · IntelliJ · Windsurf · Zed | same `.mcp.json` snippet | ⚠️ MCP-compatible |
 
 ---
 
