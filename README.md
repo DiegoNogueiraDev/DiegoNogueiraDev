@@ -6,7 +6,7 @@ Creator of mcp-graph-workflow.
 
 ## mcp-graph-workflow
 
-A **local-first MCP server** that converts PRDs into persistent execution graphs on SQLite, with embedded RAG and TDD hooks. Anti-hallucination via citation enforcement: new code under `src/core/` must cite an ADR or epic, otherwise the commit is blocked.
+A **local-first MCP server** that converts PRDs into persistent execution graphs on SQLite, with embedded RAG and TDD hooks.
 
 ```
 npm install -g @mcp-graph-workflow/mcp-graph@13.27.0
