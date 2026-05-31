@@ -1,9 +1,5 @@
 # Diego Nogueira
 
-Creator of mcp-graph-workflow.
-
----
-
 ## mcp-graph-workflow
 
 A **local-first MCP server** that converts PRDs into persistent execution graphs on SQLite, with embedded RAG and TDD hooks.
