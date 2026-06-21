@@ -1,7 +1,7 @@
 # Diego Nogueira - Agent Graph Flow (AGF) Creator
 
-CLI Agent Graph Flow [AGF] [graph-flow.cloud](https://graph-flow.cloud) <br>
-Skill Agent Graph Flow (AGF] - [graph-skills](https://github.com/DiegoNogueiraDev/graph-flow-skills)
+CLI Agent Graph Flow (AGF) [graph-flow.cloud](https://graph-flow.cloud) <br>
+Skill Agent Graph Flow (AGF) - [graph-skills](https://github.com/DiegoNogueiraDev/graph-flow-skills)
 
 ## Connect
 
